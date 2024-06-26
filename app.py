@@ -11,7 +11,7 @@ import io
 app = Flask(__name__)
 
 # Load model
-model = tf.keras.models.load_model('model_sumatera_lstm64.h5')
+model = tf.keras.models.load_model('model_sumatera_lstm.h5')
 
 # Load dataset asli
 df = pd.read_csv('sumatera.csv')
